@@ -8,11 +8,37 @@ public class Main {
         boolean estudios = true;
 
 
-        if (edad >= 18 && estudios){
-            System.out.println("Eres mayor de edad y tienes estudios");
-        }else {
-            System.out.println("ALo");
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+
+
+        System.out.println("Mi nombre es: " + nombre);
+
+
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+
+
+        System.out.println("Mi edad es: " + edad);
+
+
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+
+
+        if (estudios){
+            System.out.println("Tengo estudios");
+        }else{
+            System.out.println("No tengo estudios");
         }
+
+
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
+        System.out.println("-------------------------------------------");
 
 
 
