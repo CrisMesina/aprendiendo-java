@@ -1,10 +1,10 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Repaso1 {
+public class Repaso2 {
     public static void main(String[] args) {
 
-        int num1 = 10;
-        int num2 = 20;
+        int num1 = 20;
+        int num2 = 6;
 
         separador();
 
@@ -44,11 +44,11 @@ public class Repaso1 {
         return a * b;
     }
 
-    public static float division(float a, float b){
+    public static double division(double a, double b){
         return a / b;
     }
 
-    public static double modulo(double a, double b ){
+    public static int modulo(int a, int b ){
         return a%b;
     }
 
