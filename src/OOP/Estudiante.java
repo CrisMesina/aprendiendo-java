@@ -10,9 +10,9 @@ public class Estudiante {
 
 
     public Estudiante(String nombre, int edad, double altura) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.altura = altura;
+        setNombre(nombre);
+        setEdad(edad);
+        setAltura(altura);
     }
 
 
@@ -61,5 +61,17 @@ public class Estudiante {
         System.out.println(nombre + " esta estudiando");
     }
 
+
+    public void edadFutura() {
+        System.out.println("En 10 años tendra: " + (edad + 10));
+    }
+
+    public void cumpliAnios(){
+        edad++;
+    }
+
+    public void estudiarHoras(int horas){
+        System.out.println(nombre + " estudio durante " + horas + " horas");
+    }
 
 }
